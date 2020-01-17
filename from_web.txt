@@ -1,0 +1,5 @@
+this is inside master,
+
+major changes in the master.
+
+How would this affect to all over process.
