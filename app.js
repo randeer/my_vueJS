@@ -2,11 +2,16 @@ new Vue({
     el: '#app',
     data: {
         title: 'Dilshani Lakshika Dias',
-        linkdin: 'https://lk.linkedin.com/in/dilshani-dias-91257a166'
+        wage: 1,
+        name: 'please enter your name:'
+        
     },
     methods: {
-        testing(){
+        clickbutton(){
             return 'I am currently working on Dialog';
+        },
+        UpdateValue(e){
+            this.name = e.target.value;
         }
     }
 })

@@ -7,13 +7,16 @@
         <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     </head>
     <body>
-        <h1>Vue Js</h1>
+        <h1>Vue Js Form</h1>
     <div id="app">
 
-        <h2>{{ title }}</h2>
-        <p>{{ testing() }}</p>
-        <p>This after Bindings you can contact from <a v-bind:href="linkdin">Dilshani</a></p>
-        <p>{{linkdin}}</p>
+        <button v-on:click="wage++">Increase wage by 1</button>
+        <h2>wage = {{wage}}</h2>
+        <p>Is it working fine</p>
+
+        <p>Name {{ name }}</p>
+        <input type="text" @keyup="UpdateValue" placeholder="Type your name">
+
 
     </div>
     <script src="app.js"></script>
