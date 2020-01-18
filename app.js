@@ -1,5 +1,5 @@
 new Vue({
-    element: '#app',
+    el: '#app',
     data: {
         title: 'Dilshani Lakshika Dias'
     }
